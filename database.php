@@ -9,9 +9,22 @@
     die('errore' . $conn->connect_error);
 
   }
-  else {
-    echo 'ok';
 
+
+  $sql = 'SELECT * FROM `ospiti`';
+  $results = $conn->query($sql);
+
+  if ($results->num_rows > 0)
+  {
+      $ospiti = [];
+
+      while ($row = $results->fetch_assoc()) {
+          $ospiti[] = $row;
+      }
   }
+
+  $conn->close();
+
+
 
  ?>
