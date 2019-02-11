@@ -15,17 +15,17 @@
 
         <div class="form-group">
           <label for="name">Nome</label>
-          <input type="text" name="name" class="form-control" placeholder="Inserisci il nome ospite" />
+          <input type="text" name="name" class="form-control" placeholder="Inserisci il nome ospite" required/>
         </div>
 
         <div class="form-group">
           <label for="lastname">Cognome</label>
-          <input type="text" name="lastname" class="form-control" placeholder="Inserisci il cognome ospite" />
+          <input type="text" name="lastname" class="form-control" placeholder="Inserisci il cognome ospite" required/>
         </div>
 
         <div class="form-group">
           <label for="date_of_birth">Data di nascita</label>
-          <input type="text" name="date_of_birth" class="form-control" placeholder="Inserisci la data di nascita ospite" />
+          <input type="text" name="date_of_birth" class="form-control" placeholder="Inserisci la data di nascita ospite" required/>
         </div>
 
         <div class="form-group">
@@ -38,7 +38,7 @@
 
           <div class="form-group">
             <label for="document_number">Numero documento</label>
-            <input type="text" name="document_number" placeholder="Inserisci il numero di documento" class="form-control" />
+            <input type="text" name="document_number" placeholder="Inserisci il numero di documento" class="form-control" required/>
 
           </div>
 
