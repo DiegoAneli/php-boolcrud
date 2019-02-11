@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <a href="#" class="btn btn-primary">Crea Ospite</a>
+          <a href="http://localhost/ospiti-crud/create/form_nuovo_ospite.php" class="btn btn-primary">Crea Ospite</a>
 
         </div>
 
@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-12">
 
-/* se l array è pieno (o non è vuoto) stampa la table */
+
 
         <?php include 'database.php'; ?>
 
